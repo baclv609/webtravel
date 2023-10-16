@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: Inter;
+}
+
+header {
+    height: 80px;
+}
+
+header a {
+    text-decoration: none;
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.banner {
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    height: 675px;
+    border-radius: 18px;
+}
+
+.banner {
+    position: relative;
+}
+
+.about-benner-container {
+    position: absolute;
+    top: 403px;
+    left: 209px;
+    right: 204px;
+}
+
+.benner-text-h1 {
+    color: white;
+    font-size: 56px;
+    line-height: 67.20px;
+    word-wrap: break-word
+}
+
+.benner-text-p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.about {
+    margin-top: 80px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex"
+
+}
+
+/*  về chúng tôi */
+
+.abou-item-img svg {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-item {
+    width: 584px;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-item-text {
+    text-align: center;
+}
+
+/* dịch vụ của chúng tôi */
+/* .lienhe-about ul li {
+    color: #4A4A4A;
+} */
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.font-size-16px {
+    font-size: 16px;
+}
+
+.font-size-44px {
+    font-size: 44px;
+}
+
+.font-size-20px {
+    font-size: 20px;
+    text-align: center;
+}
+
+.font-size-24px {
+    font-size: 24px;
+    line-height: 33.60px;
+    text-align: center;
+}
+
+.lh-28 {
+    line-height: 28px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-32 {
+    line-height: 32px;
+}
+
+.lh-66 {
+    line-height: 66px;
+}
+
+.c-back-bold {
+    color: black;
+}
+
+.car-about {
+    padding: 40px 16px;
+}
+
+.car-about:hover {
+    background-color: #FFF;
+    border-radius: 18px;
+}
+
+.boder-oto {
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 173px;
+    height: 173px;
+}
+
+.dv {
+    color: #00122D;
+    line-height: 66px;
+    word-wrap: break-word
+}
+
+.main {
+    background-color: #FAFAFA;
+    padding-bottom: 80px;
+}
+
+.text-h1 {
+    color: #00122D;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* style="width: 584px; text-align: center; color: #4A4A4A; font-size: 16px;  line-height: 24px; word-wrap: break-word; margin-bottom: 72px;" */
+.content-item-text {
+    width: 580px;
+    color: #4A4A4A;
+    text-align: justify;
+}
+
+.custom-btn {
+    padding: 14px 64px;
+    background: #FF3B3F;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 24px;
+    text-align: right;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+    background-color: #252525;
+    height: 370px;
+}
+
+/* Những con số biết nói */
+.banner-text {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+.benner-img img {
+    width: 100%;
+    position: absolute;
+}
+
+.text-heading3 {
+    margin-top: 40px;
+}
+
+.choose-us-section {
+    margin-top: 40px;
+}
+/* Heading 3 */
+.text-heading3 .span {
+    color: #F00;
+
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+}
+.text-heading3 p{
+    color: #FFF;
+text-align: center;
+/* Medium Text Medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
